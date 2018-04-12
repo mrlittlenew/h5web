@@ -1,0 +1,545 @@
+/*--------------------------*/
+/*ȫ��*/
+/*--------------------------*/
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color:#fff;
+	font-size:1em;
+}
+
+input{
+	height:47px;
+	background-color:transparent;
+	border:0;
+	font-size:32px;
+}
+select{
+	height:47px;
+	background-color:transparent;
+	border:0;
+	font-size:32px;
+}
+textarea{
+	background-color:transparent;
+	border:0;
+	font-size:32px;
+}
+
+.top{
+	height:200px;
+}
+
+.gap{
+	height:10px;
+}
+
+.title{
+	padding-left:280px;
+}
+.button{
+	background: URL("../images/button_bg.png") no-repeat;
+	width:189px;
+	height:83px;
+	color:white;
+	font-weight:900;
+	padding-left:56px;
+	padding-top:24px;
+}
+
+.button4{
+	font-size:22px;
+	padding-left:45px;
+	padding-top:30px;
+}
+
+
+.header{
+	position:absolute;
+	top:0;
+}
+
+.bottom{
+	position:absolute;
+	bottom:0;
+}
+
+.breadcrumb{
+	position:absolute;
+	top:125px;
+	left:60px;
+}
+
+.form_area{
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+
+/*--------------------------*/
+.home_page .button_challenge{
+	position:absolute;
+	top:1050px;
+	left:600px;
+}
+/*--------------------------*/
+
+.register_page .form_area{
+	background: URL("../images/form_register.png") no-repeat;
+	width:605px;
+	height:472px;
+}
+
+.register_page .form_area input{
+	position:absolute;
+	left:196px;
+	width:400px;
+}
+
+.register_page .form_area .name{
+	top:6px;
+}
+
+.register_page .form_area .email{
+	top:103px;
+}
+
+.register_page .form_area .password{
+	top:203px;
+}
+
+.register_page .form_area .repassword{
+	top:300px;
+}
+
+.register_page .form_area .code{
+	top:394px;
+	width:230px;
+}
+
+.register_page .form_area .code_img{
+	position:absolute;
+	top:394px;
+	right:0px;
+}
+
+.register_page .button_area{
+	position:relative;
+	padding-left:235px;
+	margin-top:50px;
+}
+
+.register_page .button_area .button{
+	float:left;
+}
+
+
+/*--------------------------*/
+
+
+.login_page .form_area{
+	background: URL("../images/form_login.png") no-repeat;
+	width:800px;
+	height:301px;
+}
+
+.login_page .form_area input{
+	position:absolute;
+	left:196px;
+	width:400px;
+}
+
+.login_page .form_area .name{
+	top:6px;
+}
+
+.login_page .form_area .password{
+	top:111px;
+}
+
+.login_page .form_area .code{
+	top:224px;
+	width:230px;
+}
+
+.login_page .form_area .code_img{
+	position:absolute;
+	top:224px;
+	left:450px;
+}
+
+.login_page .form_area .button{
+	position:absolute;
+	left:610px;
+}
+
+.login_page .form_area .btn_reg{
+	top:-10px;
+}
+
+.login_page .form_area .btn_find_pw{
+	top:95px;
+}
+
+.login_page .button_area{
+	position:relative;
+	padding-left:235px;
+	margin-top:50px;
+}
+
+.login_page .button_area .button{
+	float:left;
+}
+
+
+/*--------------------------*/
+
+.password_page .form_area{
+	background: URL("../images/form_find_pw.png") no-repeat;
+	width:605px;
+	height:170px;
+}
+
+.password_page .form_area input{
+	position:absolute;
+	left:196px;
+	width:400px;
+}
+
+.password_page .form_area .email{
+	top:6px;
+}
+
+.password_page .form_area .name{
+	top:113px;
+}
+
+
+.password_page .button_area{
+	position:relative;
+	padding-left:235px;
+	margin-top:50px;
+}
+
+.password_page .button_area .button{
+	float:left;
+}
+
+
+/*--------------------------*/
+
+.team_type_page .form_area{
+	background: URL("../images/form_team_type.jpg") no-repeat;
+	width:771px;
+	height:740px;
+}
+
+.team_type_page .form_area .button{
+	position:absolute;
+	color:#f3cf44;
+}
+
+.team_type_page .form_area .btn_1{
+	top:280px;
+	left:28px;
+}
+
+.team_type_page .form_area .btn_2{
+	top:280px;
+	left:550px;
+}
+
+.team_type_page .form_area .btn_3{
+	top:625px;
+	left:28px;
+}
+
+.team_type_page .form_area .btn_4{
+	top:625px;
+	left:550px;
+}
+
+.team_type_page .popup{
+	display:none;
+}
+
+.team_type_page .mask{
+	position:absolute;
+	background-color:#000;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:10;
+	opacity: 0.6;
+}
+
+.team_type_page .dialog{
+	position:absolute;
+	background: URL("../images/team_type_dialog.png") no-repeat;
+	top:500px;
+	left:110px;
+	width:655px;
+	height:352px;
+	z-index:20;
+}
+.team_type_page .popup_btn{
+	position:absolute;
+	width:142px;
+	height:68px;
+	top:208px;
+}
+.team_type_page .popup_btn.popup_btn_l{
+	left:163px;
+}
+
+.team_type_page .popup_btn.popup_btn_r{
+	left:374px;
+}
+
+/*--------------------------*/
+
+.person_info_page .form_area{
+	background: URL("../images/form_person_info.png") no-repeat;
+	width:595px;
+	height:1679px;
+}
+
+.person_info_page .form_area input{
+	position:absolute;
+	left:188px;
+	width:400px;
+}
+
+.person_info_page .form_area select{
+	position:absolute;
+	left:188px;
+	width:400px;
+}
+
+.person_info_page .form_area .item01{
+	top:7px;
+}
+
+.person_info_page .form_area .item02{
+	top:120px;
+}
+
+.person_info_page .form_area .item03{
+	top:231px;
+}
+
+.person_info_page .form_area .item04{
+	top:343px;
+}
+
+.person_info_page .form_area .item05{
+	top:455px;
+}
+
+.person_info_page .form_area .item06{
+	top:568px;
+}
+
+.person_info_page .form_area .item07{
+	top:678px;
+}
+
+.person_info_page .form_area .item08{
+	top:791px;
+}
+
+.person_info_page .form_area .item09{
+	top:902px;
+}
+
+.person_info_page .form_area .item10{
+	top:1016px;
+}
+
+.person_info_page .form_area .item11{
+	top:1127px;
+}
+
+.person_info_page .form_area .item12{
+	top:1240px;
+}
+
+.person_info_page .form_area .item13{
+	top:1351px;
+}
+
+.person_info_page .form_area .item14{
+	top:1462px;
+}
+
+.person_info_page .form_area .item15{
+	position:absolute;
+	left:183px;
+	top:1580px;
+	height:88px;
+	width:400px;
+}
+
+.person_info_page .button_area{
+	position:relative;
+	padding-left:235px;
+	margin-top:50px;
+}
+
+.person_info_page .button_area .button{
+	float:left;
+}
+
+
+/*--------------------------*/
+
+.team_info_page .form_area{
+	width:799px;
+	height:1148px;
+}
+
+.team_info_page .form_area.team_create{
+	background: URL("../images/form_team_create.jpg") no-repeat;
+}
+
+.team_info_page .form_area.team_search{
+	background: URL("../images/form_team_search.jpg") no-repeat;
+}
+
+.team_info_page .form_area input{
+	position:absolute;
+	left:214px;
+	width:513px;
+}
+
+.team_info_page .form_area textarea{
+	position:absolute;
+	left:214px;
+	width:513px;
+	height:145px;
+}
+
+.team_info_page .form_area .item01{
+	top:224px;
+}
+
+.team_info_page .form_area .item02{
+	top:327px;
+}
+
+.team_info_page .form_area .item03{
+	top:431px;
+}
+
+.team_info_page .form_area .item04{
+	top:633px;
+}
+
+.team_info_page .form_area.team_create .gotoSearch{
+	position:absolute;
+	width:250px;
+	height:123px;
+	top:0px;
+	left:432px;
+}
+
+.team_info_page .form_area.team_create .button{
+	position:absolute;
+	top:980px;
+}
+
+.team_info_page .form_area.team_create .buttonL{
+	left:180px;
+}
+
+.team_info_page .form_area.team_create .buttonR{
+	left:445px;
+}
+
+
+.team_info_page .form_area .item05{
+	top:225px;
+	left:141px;
+	width:449px;
+}
+
+.team_info_page .form_area .item06{
+	top:858px;
+	left:306px;
+	width:350px;
+}
+
+.team_info_page .form_area.team_search{
+	display:none;
+}
+
+.team_info_page .form_area.team_search .gotoCreate{
+	position:absolute;
+	width:250px;
+	height:123px;
+	top:0px;
+	left:106px;
+}
+
+.team_info_page .form_area.team_search .searchBtn{
+	position:absolute;
+	width:100px;
+	height:89px;
+	top:205px;
+	left:593px;
+}
+
+.team_info_page .form_area.team_search .button{
+	position:absolute;
+	top:1000px;
+	left:308px;
+}
+
+.team_info_page .form_area.team_search .search_result{
+	position:absolute;
+	top:528px;
+	left:141px;
+}
+
+.team_info_page .form_area.team_search .search_result p{
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	font-size:30px;
+	font-weight:900;
+	line-height:32px;
+	margin-top:20px;
+}
+
+
+/*--------------------------*/
+
+.success_page .form_area{
+	width:605px;
+	height:170px;
+}
+
+.success_info{
+	width:605px;
+	margin:auto;
+	text-align:center;
+}
+.success_info a{
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	font-size:30px;
+	font-weight:900;
+	line-height:32px;
+	margin-top:20px;
+	color:#0190d6;
+}
+
+.success_info  p{
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	font-size:30px;
+	font-weight:900;
+	line-height:32px;
+	margin-top:20px;
+}
+
